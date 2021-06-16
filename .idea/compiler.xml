@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Step Definition-Cucumber" />
         <module name="PalMayor-Step Definition-Pipeline" />
+        <module name="PalMayor-Step-Definition-Pipeline" />
         <module name="skybluetraining5" />
       </profile>
     </annotationProcessing>
