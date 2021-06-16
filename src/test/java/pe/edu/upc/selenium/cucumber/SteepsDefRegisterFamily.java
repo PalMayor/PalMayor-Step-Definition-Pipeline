@@ -30,7 +30,7 @@ public class SteepsDefRegisterFamily {
 
         WebElement textEmailInput = webDriver.findElement(By.xpath("/html/body/app-root/app-registrar/div/div[2]/div/div/div/div/form/div[1]/div/input"));
         textEmailInput.click();
-        textEmailInput.sendKeys("examplaaae2222@hotsdamail.com");
+        textEmailInput.sendKeys("examplefamreg@outlook.com");
 
         WebElement textPasswordInput = webDriver.findElement(By.xpath("/html/body/app-root/app-registrar/div/div[2]/div/div/div/div/form/div[2]/div/input"));
         textPasswordInput.click();

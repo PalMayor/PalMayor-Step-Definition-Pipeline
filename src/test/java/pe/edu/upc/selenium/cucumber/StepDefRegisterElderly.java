@@ -24,7 +24,7 @@ public class StepDefRegisterElderly {
         buttonSignUp.click();
 
         WebElement textInputEmail = webDriver.findElement(By.xpath("/html/body/app-root/app-iniciar-sesion/div/div[2]/div/div/div[1]/div/form/div[1]/div/input"));
-        textInputEmail.sendKeys("examplaaae222@hotsdamail.com");
+        textInputEmail.sendKeys("example@outlook.com");
 
         WebElement textInputPassword = webDriver.findElement(By.xpath("/html/body/app-root/app-iniciar-sesion/div/div[2]/div/div/div[1]/div/form/div[2]/div/input"));
         textInputPassword.sendKeys("passwordExample");

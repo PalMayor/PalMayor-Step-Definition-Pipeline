@@ -1,3 +1,5 @@
+package pe.edu.upc.selenium.cucumber;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,7 +23,7 @@ public class StepDefRegisterNurse {
 
         WebElement textEmailInput = webDriver.findElement(By.xpath("/html/body/app-root/app-registrar/div/div[2]/div/div/div/div/form/div[1]/div/input"));
         textEmailInput.click();
-        textEmailInput.sendKeys("examplenurse@hotmail.com");
+        textEmailInput.sendKeys("exampleregnurse@outlook.com");
 
         WebElement textPasswordInput = webDriver.findElement(By.xpath("/html/body/app-root/app-registrar/div/div[2]/div/div/div/div/form/div[2]/div/input"));
         textPasswordInput.click();

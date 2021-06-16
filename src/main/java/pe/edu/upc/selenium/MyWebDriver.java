@@ -10,8 +10,9 @@ public class MyWebDriver {
 
     }
     public static WebDriver getWebDriver() {
+        String urlPage = "http://localhost:4200/#/landing";
         if(webDriver == null) {
-            String urlPage = "http://localhost:4200/#/landing";
+
             // Establece el chrome driver
             //WebDriver webDriver;
             String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
@@ -25,6 +26,8 @@ public class MyWebDriver {
             webDriver.manage().window().maximize();
 
             
+        }else {
+            webDriver.get(urlPage);
         }
         return webDriver;
     }

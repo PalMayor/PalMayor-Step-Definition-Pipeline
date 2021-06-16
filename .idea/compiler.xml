@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="deisw-selenium" />
-        <module name="PalMayor-Step Definition-Pipeline" />
+        <module name="PalMayor-Step-Definition-Pipeline" />
       </profile>
     </annotationProcessing>
   </component>
